@@ -1,0 +1,70 @@
+.contact-form .form-grid {
+    border: none;
+    display: flex;
+    flex-flow: row wrap;
+    gap: var(--main-gap);
+}
+
+fieldset legend {
+    display: none;
+
+}
+
+.form-group {
+    min-width: 20rem;
+    flex: 1 1 auto;
+}
+
+.form-group label{
+    display: none;
+}
+
+.form-group input,
+.form-group textarea {
+    border: none;
+    border-bottom: 0.15rem solid var(--light-grey-color);
+    background: none;
+    padding: 1.5rem 2rem;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color: var(--white-color);
+    caret-color: var(--light-grey-color);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    box-shadow: none;
+    outline: none;
+    color: var(--white-color);
+
+    
+}
+
+.form-group button {
+    border: 0.2rem solid var(--light-grey-color);
+    background: none;
+    height: 5rem;
+    width: 16rem;
+    color: var(--white-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    transition: all 300ms ease-in-out;
+}
+
+.form-group button:hover {
+    border: 0.2rem solid var(--white-color);
+    background: var(--white-color);
+    color: var(--primary-color);
+    cursor: pointer;
+
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder{
+
+    color: var(--opacity-grey-color);
+    font-weight: 300;
+
+}

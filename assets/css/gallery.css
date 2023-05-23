@@ -1,0 +1,48 @@
+.gallery-img {
+    width: 100%;
+    max-width: 36rem;
+    max-height: 36rem;
+    overflow: hidden;
+}
+
+
+.gallery-img img {
+    transition: all 300ms ease-in-out;
+}
+
+.gallery-img img:hover{
+    transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
+}
+
+.gallery-table {
+    min-width: 36rem;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.gallery-table .first-img {
+    padding-left: 3rem;
+}
+
+.gallery-table td, .gallery-table th {
+    border: none;
+}
+
+.gallery-table::-webkit-scrollbar{
+    display: block;
+    position: absolute;
+    height: 0.6rem;
+}
+
+.gallery-table::-webkit-scrollbar-thumb{
+    background: var(--primary-color);
+    border-radius: 10rem;
+
+}
+.gallery-table::-webkit-scrollbar-track-piece{
+    background-color: var(--opacity-grey-color);
+    height: 0.1rem;
+    width: 0.1rem;
+    
+}

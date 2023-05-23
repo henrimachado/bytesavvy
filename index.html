@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/variables.css">
+    <link rel="stylesheet" href="./assets/css/elements.css">
+    <link rel="stylesheet" href="./assets/css/classes.css">
+    <link rel="stylesheet" href="./assets/css/menu.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/gallery.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button" aria-pressed="true">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 class="logo" onclick="getElementById('close-menu').checked = false;">
+                <!-- <a href="#home">LOGO</a></h1> -->
+                <a href="#home"><img src="./assets/img/logo.svg" alt="ByteSavvy Solutions" class="logo-img"></a>
+            </h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#home">início</a></li>
+                    <li><a href="#intro">sobre</a></li>
+                    <li><a href="#missao">missão</a></li>
+                    <li><a href="#equipe">equipe</a></li>
+                    <li><a href="#servicos">o que fazemos</a></li>
+                    <li><a href="#projetos">projetos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="home main-bg section-site">
+        <div class="main-content home-content">
+            <div class="home-text-content">
+                <h2>ByteSavvy Solutions</h2>
+                <p>Aplicações web customizadas para o seu negócio. Criamos soluções eficientes e fáceis de usar com base
+                    nas mais novas tecnologias. Seja uma aplicação web ou um website personalizado, entregamos resultado
+                    de forma ágil e com foco em você!</p>
+            </div>
+
+            <div class="home-img"><img src="./assets/img/home-img.svg" alt="Logos de HMLT, CSS e JS"></div>
+        </div>
+    </section>
+
+    <section id="intro" class="white-bg section-site">
+        <div class="main-content intro-content">
+            <h2 class="primary-color">Sobre</h2>
+            <p>Somos uma equipe de profissionais especializados no desenvolvimento de soluções para a web, dedicada a
+                fornecer serviços de alta qualidade e personalizados para empresas de diferentes segmentos. Combinando
+                técnica, criatividade e uma abordagem centrada no cliente, buscamos fornecer soluções digitais que
+                impulsionem o cresimento e o sucesso de nossos clientes.</p>
+
+            <p>Apaixonados por tecnologia e sempre prontos a encarar qualquer desafio, buscamos estar sempre atualizados
+                sobre as últimas tendências do mercado. Trabalhamos de forma colaborativa com nossos clientes,
+                entendendo suas necessidades e transformando suas ideias em realidade. Assim, nosso foco está na entrega
+                de valor, garantindo a satisfação total de nossos parceiros de negócio.</p>
+
+            <p> Na ByteSavvy Solutions, valorizamos a transparência, a inovação, a excelência e a agilidade em tudo que
+                fazemos. Seja você uma pequena empresa em busca de um website, ou uma startup que precisa de uma
+                aplicação altamente responsiva e inovadora, estamos prontos para oferecer nossa expertise e suporte
+                necessários para atingir seus objetivos. Conecte-se conosco e descubra como a ByteSavvy pode transformar
+                suas ideias em realidade digital!</p>
+        </div>
+    </section>
+
+
+    <section id="missao" class="main-bg section-site grid-one">
+
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading"> Nossa motivação</h2>
+            <p class="grid-description">Na ByteSavvy Solutions, o nosso cliente é parte de nossa equipe.</p>
+
+
+            <div class="grid">
+                <article>
+                    <h3>Nossa missão</h3>
+                    <p>Não medimos esforços para fornecer, de forma ágil, transparente e segura, soluções tecnológicas
+                        sob medida, responsivas, de alta qualidade e eficácia e que garantam não somente a satisfação,
+                        mas a vantagem competitiva de nossos clientes.</p>
+                </article>
+                <article>
+                    <h3>Nossa visão</h3>
+                    <p>Queremos nos tornar uma empresa líder em desenvolvimento web, sendo referência em inovação,
+                        qualidade e atendimento aos clientes. Buscamos crescer ao mesmo tempo em que mantemos nosso
+                        compromisso com a excelência e a agilidade.</p>
+                </article>
+                <article>
+                    <h3>Nossos valores</h3>
+                    <p>Acreditamos na importância da excelência, inovação, transparência, parceria, integridade e
+                        agilidade para a conquista de uma verdadeira vantagem competitiva e no fornecimento de soluções
+                        de alta qualidade.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="equipe" class="white-bg section-site grid-one">
+
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading primary-color center">Equipe</h2>
+
+
+            <div class="slide-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <!-- imagem -->
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="./assets/img/profile-hm.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <!-- conteúdo -->
+                            <div class="card-content">
+                                <h3 class="name">Henrique Machado</h3>
+                                <p class="job">Desenvolvedor Front-end e Designer UI</p>
+
+
+
+                                <div class="media-buttons">
+                                    <a href="https://github.com/henrimachado" class="link" target="_blank">
+                                        <i class='bx bxl-github'></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/henrimachado/" class="link" target="_blank">
+                                        <i class='bx bxl-linkedin'></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <!-- imagem -->
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="./assets/img/profile-ig.png" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <!-- conteúdo -->
+                            <div class="card-content">
+                                <h3 class="name">Iago Fernandes</h3>
+                                <p class="job">Desenvolvedor Full-stack</p>
+
+
+
+                                <div class="media-buttons">
+                                    <a href="https://github.com/iagoMAF" class="link" target="_blank">
+                                        <i class='bx bxl-github'></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/iago-fernandes-083309207/" class="link" target="_blank">
+                                        <i class='bx bxl-linkedin'></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <!-- imagem -->
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="./assets/img/profile-lc.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <!-- conteúdo -->
+                            <div class="card-content">
+                                <h3 class="name">Lucas Alexsander</h3>
+                                <p class="job">Desenvolvedor Front-end</p>
+
+
+
+                                <div class="media-buttons">
+                                    <a href="https://github.com/LucasAlexsander" class="link" target="_blank">
+                                        <i class='bx bxl-github'></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/lucas-alexsander-barbosa-cruz-481bbb21a/" class="link" target="_blank">
+                                        <i class='bx bxl-linkedin'></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <!-- imagem -->
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="./assets/img/profile-mc.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <!-- conteúdo -->
+                            <div class="card-content">
+                                <h3 class="name">Mariano Carlos</h3>
+                                <p class="job">Desenvolvedor Full-stack</p>
+
+
+
+                                <div class="media-buttons">
+                                    <a href="https://github.com/Mariano-SI" class="link" target="_blank">
+                                        <i class='bx bxl-github'></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/mariano-silva-418121202/" class="link" target="_blank">
+                                        <i class='bx bxl-linkedin'></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+    </section>
+
+    <section id="servicos" class="main-bg section-site grid-one">
+
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Serviços</h2>
+            <p class="grid-description">Saiba mais sobre nossos principais serviços.</p>
+
+
+            <div class="grid">
+
+                <article>
+                    <h3>WebSites</h3>
+                    <p> Construção de websites personalizados, responsivos e otimizados, voltados para a construção de uma presença digital eficaz, atrativa, forte e ativa para nossos clientes e seus negócios.</p>
+                </article>
+                <article>
+                    <h3>WebApps</h3>
+                    <p>Desenvolvimento de aplicações web sob medida, como sistemas de gerenciamento de conteúdo, e-commerce, portais e outros que atendam às necessidades específicas de nossos clientes.</p>
+                </article>
+                <article>
+                    <h3>Consultoria</h3>
+                    <p> Serviços de consultoria e assessoria no campo das tecnologias da informação, auxiliando na definição de estratégias digitais, seleção de tecnologias e melhores práticas de desenvolvimento.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="white-bg section-site">
+        <div class="main-content intro-content">
+            <h2 class="primary-color">Nosso último trabalho</h2>
+            <p>Atualmente estamos trabalhando no desenvolvimento de uma solução que fará a ponte entre os pets resgatados por uma ONG e um adotante que deseja levar para casa um novo companheiro.</p>
+
+            
+
+        </div>
+    </section>
+
+    
+
+
+    <footer id="footer" class="footer white-bg ">
+        <p>Copyright ©2023 | by <b>Grupo 3</b> (Engenharia Web/UFVJM)</p>
+    </footer>
+
+    <a class="back-to-top" href="#home">&#10148;</a>
+
+
+
+
+
+</body>
+
+<!-- Swiper JS -->
+<script src="./assets/js/swiper-bundle.min.js"></script>
+
+<!-- JavaScript -->
+<script src="./assets/js/script.js"></script>
+
+</html>

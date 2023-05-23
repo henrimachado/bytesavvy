@@ -1,0 +1,87 @@
+/*Este documento está sendo criado usando REM, dessa forma, coloca-se o html em 62.5% para que 1 REM seja equivalente a 10px*/
+
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color: var(--primary-dark-color);
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 6rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 5rem;
+}
+
+h4 {
+    font-size: 4.5rem;
+}
+
+h5 {
+    font-size: 4rem;
+}
+
+h6 {
+    font-size: 3.5rem;
+}
+
+
+
+table {
+    border-collapse: collapse;
+}
+
+table thead {
+    background: var(--lighter-grey-color);
+}
+
+table td, table th {
+    font-size: 1.8rem;
+    padding: 1rem ;
+    text-align: left;
+    border: 0.1rem solid var( --light-grey-color);
+
+}
+
+table caption {
+    font-size: 1.6rem;
+    text-align: right;
+    font-style: italic;
+    padding-right: 0.5rem;
+    caption-side: bottom;
+}
+

@@ -1,0 +1,24 @@
+.home-content {
+    position: relative;
+    top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: var(--intro-gap);
+    min-height: 100vh;
+}
+
+.home-text-content, .home-img {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+
+.home-text-content p {
+    font-size: 2.3rem;
+}
+
+.home-img img {
+    max-width: 100%;
+    height: auto;
+}
