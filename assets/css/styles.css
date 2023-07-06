@@ -233,6 +233,14 @@
 }
 
 
+.card-case {
+    width: 50rem;
+    border-radius: 2.5rem;
+    background: var(--white-color);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    
+}
+
 
 @media screen and  (max-device-width: 320px) {
     h2  {
@@ -266,6 +274,10 @@
     .card-image{
         height: 120px;
         width: 120px;
+    }
+
+    .card-case{
+        width: 30rem;
     }
 
 }
